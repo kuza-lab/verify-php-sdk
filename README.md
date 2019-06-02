@@ -1,5 +1,5 @@
-User Data Capture for PHP
-=========================
+Verify.ke PHP SDK
+=================
 
 The official PHP Library for Verify.ke [https://documentation.verify.ke]
 
