@@ -1,9 +1,10 @@
 Verify.ke PHP SDK
 =================
 
-The official PHP Library for Verify.ke [https://documentation.verify.ke]
+The official PHP Library for Verify.ke (https://documentation.verify.ke) 
 
 This library allows you to handle verification of data as provided by Verify.ke.
+
 Requirements
 ============
 
@@ -52,6 +53,7 @@ Usage
     
     
         // Example 2: verify NCA contractor details.
+        
         $data = [
             "registration_no"   => "46733/R/1218",
             "contractor_name"   => "Veneers Company Limited",
