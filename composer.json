@@ -1,0 +1,29 @@
+{
+  "name": "kuza/verify-sdk",
+  "description": "An encapsulation of the Verify.ke verification APIs",
+  "keywords": ["verify", "user-data", "package"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Phelix Juma",
+      "email": "jumaphelix@kuzalab.com"
+    }
+  ],
+  "type": "package",
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "require": {
+    "ext-json": "*",
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kuza\\Verify\\": "src/"
+    }
+  }
+}
